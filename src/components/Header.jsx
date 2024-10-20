@@ -49,7 +49,7 @@ function Header() {
   <Link
     to="/most-wanted"
     className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-9 p-1 md:text-[14px] rounded">
-    Most-Wanted
+    MostWanted
   </Link>
 </li> 
 
@@ -57,7 +57,7 @@ function Header() {
 <Link
     to="/most-wanted"
     className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] p-1 mr-9 md:text-[14px] rounded'>
-    New-Arrival 
+    NewArrival 
   </Link>
 </li>     
 
