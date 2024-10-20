@@ -23,9 +23,10 @@ function Header() {
     <Slider/>
     <div className='Navbar flex font-serif'>
         <div className="">
-        <h1 className="mt-4 ml-[5vw] mr-[10vw] hidden lg:block md:block font-bold text-black">
+        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black">
   Nostra
-</h1>        </div>
+</h1>     
+   </div>
 
 
 <div className='lg:hidden-none md:hidden-none hidden sm:hidden-none md:flex space-x-6 ml-[2vw] items-center list-none '> 
