@@ -1,0 +1,115 @@
+
+  .dropdown {
+    position: relative;
+  }
+  
+  .dropbtn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 5px;
+
+  }
+  .dropbtn:hover {
+    background-color: rgb(145, 148, 151);
+  }
+  
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-size: 12px;
+  }
+  
+
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+    background-color: rgb(227, 235, 233);
+    color: black;
+    cursor:pointer ;
+    margin-top: 5px;
+
+  }
+  
+  .dropdown-content a {
+    padding: 5px 10px;
+    display: block;
+  }
+/*   
+  .navbar-icons button {
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    margin-left: 15px;
+  }
+  
+  /* Mobile Menu */
+  /* .mobile-menu-icon {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  
+  .mobile-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: white;
+    z-index: 100;
+    padding: 20px;
+  }
+  
+  .close-mobile-menu {
+    font-size: 24px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu-content {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 30px;
+  }
+  
+  /* Responsive Styles */
+  /* @media (max-width: 768px) {
+    .navbar-links {
+      display: none;
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+    }
+  } */
+   
+
+
+
+  .animated-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+  }
+  
+  .animated-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.2);
+  }
+  

@@ -1,0 +1,88 @@
+/* Styling the banner */
+.banner {
+    background-color: #0b0d17; /* Dark background */
+    color: white;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 10px;
+    border-radius: 8px;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Text styles */
+  .banner-text {
+    margin: 0;
+    flex: 1;
+    font-size: 14px;
+  }
+  
+  .signup-link {
+    color: #61dafb;
+    text-decoration: underline;
+  }
+  
+  .signup-link:hover {
+    color: #21a1f1;
+  }
+  
+  /* Close button styles */
+  .close-btn {
+    background: none;
+    border: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Fade-out effect */
+  .banner.fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  /* Responsive styling */
+  
+  /* For tablets and larger screens */
+  @media (min-width: 768px) {
+    .banner {
+      font-size: 10px; /* Increase font size for larger screens */
+      padding: 15px 30px; /*Add more padding */
+    }
+  
+    .close-btn {
+      font-size: 20px; /* Larger close button */
+    }
+  }
+  
+  /* For small devices (mobile screens) */
+  @media (max-width: 767px) {
+    .banner {
+      flex-direction: column; /* Stack elements on smaller screens */
+      align-items: start; /* Align items to the start */
+      font-size: 12px; /* Smaller text on mobile */
+      padding: 15px; /* Less padding */
+      justify-content: start;
+      margin:0px; /* Remove margin to fit screen */
+      padding-top: 10px;
+
+    }
+  
+    .banner-text {
+      margin-right: 24px;
+      width: 80vw;
+
+    }
+  
+    .close-btn {
+      align-self: flex-end; /* Align the close button to the right */
+      font-size: 30px; /* Smaller close button */
+      margin-right: 10px;
+    }
+  }
+  
