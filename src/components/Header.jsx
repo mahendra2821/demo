@@ -37,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn text-[15px] ">Shop ▼</button>
+            <button className="dropbtn text-[15px] ">Shop▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -48,23 +48,23 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded">
-    Most Wanted
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] rounded">
+    Most-Wanted
   </Link>
 </li> 
 
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
-    New Arrival 
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] rounded'>
+    New-Arrival 
   </Link>
 </li>     
 
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px]  md:text-[14px]  rounded'>
     Brands
   </Link>
 </li> 
