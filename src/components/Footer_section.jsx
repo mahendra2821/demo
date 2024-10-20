@@ -34,39 +34,39 @@ const Footer_section = () => {
                         <p className="">
                             Buy High Quality Products from the best brands in the world.
                         </p>
-            <div className="max-w-full w-[100vw] mt-4"> 
+            <div className="max-w-full w-[100vw] mt-4 "> 
                 
                 
-                  <FooterSection className="" title="Shop">
-                        <p className='mt-3 text-gray-500'>All Collections</p>
+                 <FooterSection className="text-[10px]" title="Shop">
+                        <p className='mt-3 text-[10px] text-gray-500'>All Collections</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Winter Collection</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Winter Collection</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Discounts</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Discounts</p>
                         <hr/>
                     </FooterSection>
                     <FooterSection title="Company">
-                        <p className='mt-3 text-gray-500'>About Us</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>About Us</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Contact</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Contact</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Affiliates</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Affiliates</p>
                         <hr/>
                     </FooterSection>
                     <FooterSection title="Support">
-                        <p className='mt-3 text-gray-500'>FAQs</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>FAQs</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Cookie Policy</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Cookie Policy</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Terms of Use</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Terms of Use</p>
                         <hr/>
                     </FooterSection>
                     <FooterSection title="Payment Methods">
-                        <p className='mt-3 text-gray-500'>Credit Card</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Credit Card</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>UPI</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>UPI</p>
                         <hr/>
-                        <p className='mt-3 text-gray-500'>Paypal</p>
+                        <p className='mt-3 text-[10px] text-gray-500'>Paypal</p>
                         <hr/>
                     </FooterSection>
                 </div> 
