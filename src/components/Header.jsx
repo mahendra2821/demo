@@ -24,7 +24,7 @@ function Header() {
     <Slider/>
     <div className='Navbar flex font-serif'>
         <div className="">
-        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black text-[25px]">
+        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black text-[30px]">
   Nostra
 </h1>     
    </div>
@@ -37,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn text-[15px] ">Shop▼</button>
+            <button className="dropbtn text-[15px] mr-5 ">Shop▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -48,7 +48,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-9  md:text-[14px] rounded">
     Most-Wanted
   </Link>
 </li> 
@@ -56,7 +56,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-9 md:text-[14px] rounded'>
     New-Arrival 
   </Link>
 </li>     
@@ -64,7 +64,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px]  md:text-[14px]  rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px] mr-9 md:text-[14px]  rounded'>
     Brands
   </Link>
 </li> 
