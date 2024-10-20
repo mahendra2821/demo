@@ -48,7 +48,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-9 p-1 md:text-[14px] rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-5 p-1 md:text-[14px] rounded">
     MostWanted
   </Link>
 </li> 
@@ -56,7 +56,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] p-1 mr-9 md:text-[14px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] p-1 mr-5 md:text-[14px] rounded'>
     NewArrival 
   </Link>
 </li>     
@@ -64,7 +64,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px] mr-9 p-1 md:text-[14px]  rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black lg:text-[14px] p-1 md:text-[14px]  rounded'>
     Brands
   </Link>
 </li> 
