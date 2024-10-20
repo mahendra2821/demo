@@ -35,7 +35,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn text-[17px] ">Shop ▼</button>
+            <button className="dropbtn text-[19px] ">Shop ▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
