@@ -41,9 +41,9 @@ const Subscribe = () => {
                     </div>
                     <div className="mb-6">
                         <h4 className="font-semibold mb-2">Company</h4>
-                        <p className='text-slate-500 hover:underline '>About Us</p>
-                        <p className='text-slate-500 hover:underline '>Contact</p>
-                        <p className='text-slate-500'>Affiliates</p>
+                        <p className='text-slate-500 hover:underline text-[12px]'>About Us</p>
+                        <p className='text-slate-500 hover:underline text-[12px]'>Contact</p>
+                        <p className='text-slate-500 text-[12px]'>Affiliates</p>
                     </div>
                     <div className="mb-6">
                         <h4 className="font-semibold mb-2  text-[20px]">Support</h4>

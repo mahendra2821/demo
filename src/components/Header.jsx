@@ -46,7 +46,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded">
     Most Wanted
   </Link>
 </li> 
@@ -54,7 +54,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
     New Arrival 
   </Link>
 </li>     
@@ -62,8 +62,8 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
-    Most Wanted
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 mr-[6vw] md:ml-7 text-black lg:text-[14px]  md:text-[14px] px-1 py-1 rounded'>
+    Brands
   </Link>
 </li> 
 
@@ -74,7 +74,7 @@ function Header() {
 
 <div className="flex h-9 mt-3 ml-[7vw] border-2 border-gray-300 rounded mr-[10vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
    
-      <div className="flex items-center px-2">
+      <div className="flex items-center px-2 ">
         <CiSearch className="h-5 w-5 text-gray-500" />
      
      
@@ -85,6 +85,8 @@ function Header() {
       />
     </div>
     </div>
+
+  
 
 
 <div className="flex mt-2">
