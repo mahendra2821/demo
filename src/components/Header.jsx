@@ -30,7 +30,7 @@ function Header() {
    </div>
 
 
-<div className='lg:hidden-none md:hidden-none hidden sm:hidden-none md:flex space-x-6 ml-[2vw] items-center list-none '> 
+<div className='lg:hidden-none md:hidden-none hidden sm:hidden-none md:flex  ml-[2vw] items-center list-none '> 
 
 <div className='flex'>
     
