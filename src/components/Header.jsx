@@ -74,7 +74,7 @@ function Header() {
         
 
 
-<div className="flex h-9 mt-3 ml-[7vw] border-2 border-gray-300 rounded mr-[10vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
+<div className="flex h-9 mt-3 ml-[5vw] border-2 border-black-300 rounded mr-[10vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
    
       <div className="flex items-center px-2 ">
         <CiSearch className="h-5 w-5 text-gray-500" />
