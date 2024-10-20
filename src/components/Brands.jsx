@@ -83,25 +83,25 @@ function Brands() {
 
                 <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
                     <p><CiDollar className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[20px] font-serif font-bold">Original Products</h1>
-                    <p className="m-4 text-[15px] text-gray-500">We provide Money back gurantee if the
+                    <h1 className="m-4 text-[17px] font-serif font-bold">Original Products</h1>
+                    <p className="m-4 text-[12px] text-gray-500">We provide Money back gurantee if the
                          product or not good </p>
                     </div>
                     <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
                     <p><PiMaskHappy className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[20px] font-serif font-bold">Stisfaction Guarantee</h1>
-                    <p className="m-4 text-[15px] text-gray-500">Exchange the product You have bought if it does not fit you. </p>
+                    <h1 className="m-4 text-[17px] font-serif font-bold">Stisfaction Guarantee</h1>
+                    <p className="m-4 text-[12px] text-gray-500">Exchange the product You have bought if it does not fit you. </p>
                       </div>
                       <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
                       <p><GiAirplaneArrival className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[20px] font-serif font-bold">New Arrivals Every Week</h1>
-                    <p className="m-4 text-[15px] text-gray-500">We Update our collection every week with new products.
+                    <h1 className="m-4 text-[17px] font-serif font-bold">New Arrivals Every Week</h1>
+                    <p className="m-4 text-[12px] text-gray-500">We Update our collection every week with new products.
                      </p>
                     </div>
                     <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
                     <p><FaShippingFast className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[20px] font-serif font-bold">Fast and Free Delivery</h1>
-                    <p className="m-4 text-[15px] text-gray-500">We Offer fast and free shipping for our loyal customers. </p>
+                    <h1 className="m-4 text-[17px] font-serif font-bold">Fast and Free Delivery</h1>
+                    <p className="m-4 text-[12px] text-gray-500">We Offer fast and free shipping for our loyal customers. </p>
                      </div>
                     </div>          
 </div>

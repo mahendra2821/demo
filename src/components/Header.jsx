@@ -13,6 +13,7 @@ import { Link } from 'react-router-dom';
 import Slider from './Slider';
 import './New_Navbar.css'
 
+
 function Header() {
 
     const [menu , setMenu] = useState(false)
@@ -23,7 +24,7 @@ function Header() {
     <Slider/>
     <div className='Navbar flex font-serif'>
         <div className="">
-        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black text-[30px]">
+        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black text-[25px]">
   Nostra
 </h1>     
    </div>
@@ -36,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn text-[19px] ">Shop ▼</button>
+            <button className="dropbtn text-[15px] ">Shop ▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
