@@ -28,14 +28,14 @@ function Header() {
 </h1>        </div>
 
 
-<div className='lg:hidden-none md:hidden-none hidden sm:hidden-none md:flex space-x-6 items-center list-none text-lg'> 
+<div className='lg:hidden-none md:hidden-none hidden sm:hidden-none md:flex space-x-6 ml-[2vw] items-center list-none '> 
 
 <div className='flex'>
     
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn">Shop ▼</button>
+            <button className="dropbtn text-[19px] ">Shop ▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -46,7 +46,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[10px] px-1 py-1 rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[15px] px-1 py-1 rounded">
     Most Wanted
   </Link>
 </li> 
@@ -54,7 +54,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[10px] px-1 py-1 rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[15px] px-1 py-1 rounded'>
     New Arrival 
   </Link>
 </li>     
@@ -62,7 +62,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[10px] px-1 py-1 rounded'>
+    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black text-[15px] px-1 py-1 rounded'>
     Most Wanted
   </Link>
 </li> 
