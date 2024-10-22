@@ -24,7 +24,7 @@ function Header() {
     <Slider/>
     <div className='Navbar flex font-serif mt-2'>
         <div className="">
-        <h1 className="mt-4 lg:ml-[5vw] md:ml-4 lg:mr-[18vw] md:mr-[8vw] hidden lg:block md:block font-bold text-black lg:text-[45px] md:text-[25px]">
+        <h1 className="mt-4 lg:ml-[5vw] md:ml-4 lg:mr-[18vw] md:mr-[8vw] hidden lg:block md:block font-bold text-black lg:text-[35px] md:text-[25px]">
   Nostra
 </h1>     
    </div>
@@ -37,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn lg:text-[15px] md:text-[12px] md:mr-2 lg:mr-5 lg:ml-5 md:ml-1 ">Shop▼</button>
+            <button className="dropbtn lg:text-[12px] md:text-[12px] md:mr-2 lg:mr-5 lg:ml-5 md:ml-1 ">Shop▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -48,7 +48,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold lg:mr-5 md:mr-2 p-1 md:text-[14px] rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-4 md:ml-3 text-black lg:text-[14px]  font-bold lg:mr-5 md:mr-2 p-1 md:text-[12px] rounded">
     MostWanted
   </Link>
 </li> 
@@ -56,7 +56,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[14px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[12px] rounded'>
     NewArrival 
   </Link>
 </li>     
@@ -64,7 +64,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[14px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-3 md:mr-2 md:text-[12px] rounded'>
     Brands
   </Link>
 </li> 
