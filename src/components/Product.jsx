@@ -26,6 +26,7 @@ const picks = [
 
   return (
     <>
+    
     <div className="text-start p-10">
       <h1 className="text-3xl mb-8 font-serif font-bold">Curated Picks</h1>
 
@@ -56,7 +57,7 @@ const picks = [
 
 <div className="lg:block md:block">
     <div className="md:flex lg:flex ml-[10vw] font-serif grid lg:grid-cols-2 md:grid-cols-2 mr-5 lg:hidden-none md:hidden-none ">
-        <img src="https://img.freepik.com/premium-photo/green-pair-shoes-watch-wooden-table_1161029-9150.jpg?w=900" className="lg:h-[45vh] lg:ml-[15vw] mt-5 sm-h-[15vw]" /> 
+        <img src="https://img.freepik.com/premium-photo/green-pair-shoes-watch-wooden-table_1161029-9150.jpg?w=900" className="lg:h-[45vh] lg:ml-[10vw] md:h-[45vh] md:ml-[10vw] mt-5  lg:w-[30vw] md:w-[30vw]" /> 
         <div  className="border-2 bg-zinc-200 lg:mt-12 md:mt-12 ">
             <p  className="lg:ml-[2vw] md:ml-[10vh] ml-5 lg:py-[5vh] mt-4 md:mt-[15vh]font-serif font-bold  ">Limmited </p>
             <h1 className="lg:ml-[2vw] md:ml-[10vh] ml-5 text-[15px] font-serif font-bold text-emerald-900 lg:w-[15vw] md:w-[15vw]"> 35% off only this friday and get Special gift. </h1> 
