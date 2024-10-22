@@ -92,7 +92,7 @@ function Header() {
 
 
 <div className="flex mt-2">
-      <p className="hidden md:flex hover:bg-gray-200 rounded lg:ml-4 p-2 lg:mr-4 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
+      <p className="hidden md:flex hover:bg-gray-200 rounded lg:ml-4 p-2 lg:mr-2 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
     <CiShoppingCart className="h-6 w-6"/>
       </p>
 
