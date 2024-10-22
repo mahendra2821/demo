@@ -22,9 +22,9 @@ function Header() {
     <>
   
     <Slider/>
-    <div className='Navbar flex font-serif'>
+    <div className='Navbar flex font-serif mt-2'>
         <div className="">
-        <h1 className="mt-4 ml-[5vw] mr-[15vw] hidden lg:block md:block font-bold text-black text-[30px]">
+        <h1 className="mt-4 lg:ml-[5vw] md:ml-4 lg:mr-[18vw] md:mr-[8vw] hidden lg:block md:block font-bold text-black lg:text-[45px] md:text-[25px]">
   Nostra
 </h1>     
    </div>
@@ -37,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn text-[15px] mr-5 ">Shop▼</button>
+            <button className="dropbtn lg:text-[15px] md:text-[12px] md:mr-2 lg:mr-5 lg:ml-5 md:ml-1 ">Shop▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -48,7 +48,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] mr-5 p-1 md:text-[14px] rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold lg:mr-5 md:mr-2 p-1 md:text-[14px] rounded">
     MostWanted
   </Link>
 </li> 
@@ -56,7 +56,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-6 text-black lg:text-[14px] p-1 mr-5 md:text-[14px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[14px] rounded'>
     NewArrival 
   </Link>
 </li>     
@@ -64,7 +64,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-7 md:ml-7 text-black lg:text-[14px] p-1 md:text-[14px]  rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[16px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[14px] rounded'>
     Brands
   </Link>
 </li> 
@@ -74,7 +74,7 @@ function Header() {
         
 
 
-<div className="flex h-9 mt-3 ml-[5vw] border-2 border-black-300 rounded mr-[10vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
+<div className="flex h-9 mt-3 lg:ml-[5vw] md:ml-2 border-2 border-black-300 rounded lg:mr-[10vw] md:mr-5 hidden lg:block md:block hover:bg-gray-100 transition duration-200">
    
       <div className="flex items-center px-2 ">
         <CiSearch className="h-5 w-5 text-gray-500" />
@@ -92,24 +92,27 @@ function Header() {
 
 
 <div className="flex mt-2">
-      {/* Shopping Cart Icon with Hover */}
-      <p className="hidden md:flex hover:bg-gray-200 rounded p-3 cursor-pointer transition duration-200 h-[7vh] flex items-center justify-center">
+      <p className="hidden md:flex hover:bg-gray-200 rounded p-2 lg:mr-4  cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
     <CiShoppingCart className="h-6 w-6"/>
       </p>
 
-      {/* Contact Icon with Hover */}
-      <p className="hidden md:flex hover:bg-gray-200 rounded p-3 cursor-pointer transition duration-200 h-[7vh] flex items-center justify-center">
+      <p className="hidden md:flex hover:bg-gray-200 rounded p-2 lg:ml-4 md:mr-4 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
         <IoIosContact className="h-6 w-6" />
       </p>
     </div>
 
             </div>
 
+
+
+
+
     
 
 
+
+
 <div>
-            {/* Header Section */}
             <div className='flex w-full justify-between items-center md:hidden p-2 shadow-sm'>
                 <div className="text-xl font-bold flex items-center gap-2">
                     <h1 className="text-black font-serif font-bold">Nostra</h1>
@@ -128,12 +131,10 @@ function Header() {
                 </div>
             </div>
 
-            {/* Background Overlay */}
             {menu && (
                 <div className="fixed inset-0 bg-black opacity-50 z-40" onClick={() => setMenu(false)} />
             )}
 
-            {/* Sidebar Menu */}
             {menu && (
                 <div className={`fixed top-0 right-0 w-1/2 md:w-1/3 h-full text-lg text-white flex flex-col p-2 shadow-lg transform
                  transition-transform duration-300 ease-in-out z-50 text-white bg-opacity-90 bg-gray-800 ${menu ? 'translate-x-0' : 'translate-x-full'}`}>
@@ -152,7 +153,6 @@ function Header() {
                             <button className="bg-white border border-black-400 text-black font-bold text-sm px-3 py-1 rounded focus:outline-none hover:bg-red-300">
                     Shop ▼
                 </button>
-                                {/* Dropdown Content */}
                                 <div className="absolute font-serif right-0 hidden group-hover:block bg-gray-100  border-gray-300 shadow-lg mt-1 rounded z-10 mr-2">
                                     <a href="#" className="block px-2 py-1 text-xs text-black no-underline underline-offset text-black hover:bg-gray-200">All Collections</a>
                                     <a href="#" className="block px-2 py-1 text-xs no-underline underline-offset text-black hover:bg-gray-200">Winter Collection</a>
@@ -189,6 +189,10 @@ function Header() {
                
             )}
         </div>
+
+
+
+
 
 
     

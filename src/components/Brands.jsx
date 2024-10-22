@@ -13,7 +13,6 @@ import { PiMaskHappy } from "react-icons/pi";
 
 import { GiAirplaneArrival } from "react-icons/gi";
 import { FaShippingFast } from "react-icons/fa";
-import Header from './Header';
 
 
 function Brands() {
@@ -66,42 +65,43 @@ function Brands() {
         />
       </div>
     </div>
-            <div className="lg:flex md:flex  lg:ml-[10vw] md:ml-[10vw] ">
-                              <h1 className="ml-5 text-black font-bold font-serif text-2xl lg:mr-[40vw] md:mr-[40vw] leading-tight">
+            <div className="lg:flex md:flex  lg:ml-[10vw] md:ml-[5vw] ">
+                              <h1 className="ml-5 text-black font-bold font-serif text-2xl lg:mr-[40vw] md:mr-[20vw] leading-tight">
                     We provide best <br /> customer Experience
                     </h1>
                 <div className="flex">
                     <p><IoPinOutline className="lg:h-[8vh] lg:text-6xl md:h-[8vh] md:text-6xl text-slate-900 hidden lg:block md:block"/></p>
-                <p className="ml-5 font-bold font-sans text-slate-400 lg-mr-[10vw] md-mr-[10vw]">we ensure our customer best <br/>shopping experince</p>
+                <p className="ml-5 font-bold font-sans text-slate-400 lg-mr-[5vw] md-mr-[10vw]">we ensure our customer best <br/>shopping experince</p>
                 </div>
                 </div>
 
 
 
-                <div className="flex grid lg:grid-cols-4 md:grid-cols-4 gap-4 grid-cols-1 font-serif ml-[10vw] mr-[10vw] mt-5 mb-4">
+                <div className="flex grid lg:grid-cols-4  md:grid-cols-4 gap-4 grid-cols-1 font-serif ml-[10vw] mr-[10vw] mt-5 mb-4">
 
 
-                <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-                    <p><CiDollar className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[17px] font-serif font-bold">Original Products</h1>
-                    <p className="m-4 text-[12px] text-gray-500">We provide Money back gurantee if the
+                <div  className="lg:mb-2  md:mb-[15vh] shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+                    <p><CiDollar className="bg-slate-200 text-4xl lg:text-6xl md:text-4xl m-4 rounded"/></p>
+                    <h1 className="md:m-4 m-4 text-[17px] lg:text-[17px] md:text-[10px] font-serif font-bold">Original Products</h1>
+                    <p className="md:m-4 lg:m-4 text-[12px] m-4 md:text-[10px] lg:text-[14px] text-gray-500">We provide Money back gurantee if the
                          product or not good </p>
                     </div>
-                    <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-                    <p><PiMaskHappy className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[17px] font-serif font-bold">Stisfaction Guarantee</h1>
-                    <p className="m-4 text-[12px] text-gray-500">Exchange the product You have bought if it does not fit you. </p>
+
+                    <div  className="lg:mb-2  md:mb-[15vh] shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+                    <p><PiMaskHappy className="bg-slate-200 text-4xl lg:text-6xl md:text-4xl m-4 rounded"/></p>
+                    <h1 className="md:m-4 m-4 text-[17px] lg:text-[17px] md:text-[10px] font-serif font-bold">Stisfaction Guarantee</h1>
+                    <p className="md:m-4 lg:m-4 text-[12px] m-4 md:text-[10px] lg:text-[14px] text-gray-500">Exchange the product You have bought if it does not fit you. </p>
                       </div>
-                      <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-                      <p><GiAirplaneArrival className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[17px] font-serif font-bold">New Arrivals Every Week</h1>
-                    <p className="m-4 text-[12px] text-gray-500">We Update our collection every week with new products.
+                      <div  className="lg:mb-2  md:mb-[15vh] shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+                      <p><GiAirplaneArrival className="bg-slate-200 text-4xl lg:text-6xl md:text-4xl m-4 rounded"/></p>
+                    <h1 className="md:m-4 m-4 text-[17px] lg:text-[17px] md:text-[10px] font-serif font-bold">New Arrivals Every Week</h1>
+                    <p className="md:m-4 lg:m-4 text-[12px] m-4 md:text-[10px] lg:text-[14px] text-gray-500">We Update our collection every week with new products.
                      </p>
                     </div>
-                    <div  className="mb-2 shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
-                    <p><FaShippingFast className="bg-slate-200 text-6xl m-4 rounded"/></p>
-                    <h1 className="m-4 text-[17px] font-serif font-bold">Fast and Free Delivery</h1>
-                    <p className="m-4 text-[12px] text-gray-500">We Offer fast and free shipping for our loyal customers. </p>
+                    <div  className="lg:mb-2  md:mb-[15vh] shadow transition-transform transform hover:scale-105 hover:shadow-xl duration-300 ease-in-out">
+                    <p><FaShippingFast className="bg-slate-200 text-4xl lg:text-6xl md:text-4xl m-4 rounded"/></p>
+                    <h1 className="md:m-4 m-4 text-[17px] lg:text-[17px] md:text-[10px] font-serif font-bold">Fast and Free Delivery</h1>
+                    <p className="md:m-4 lg:m-4 text-[12px] m-4 md:text-[10px] lg:text-[14px] text-gray-500">We Offer fast and free shipping for our loyal customers. </p>
                      </div>
                     </div>          
 </div>
