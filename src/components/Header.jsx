@@ -24,7 +24,7 @@ function Header() {
     <Slider/>
     <div className='Navbar flex font-serif mt-2'>
         <div className="">
-        <h1 className="mt-4 lg:ml-[5vw] md:ml-4 lg:mr-[18vw] md:mr-[8vw] hidden lg:block md:block font-bold text-black lg:text-[35px] md:text-[25px]">
+        <h1 className="mt-4 lg:ml-[5vw] md:ml-4 lg:mr-[18vw] md:mr-[8vw] hidden lg:block md:block font-bold text-black lg:text-[30px] md:text-[25px]">
   Nostra
 </h1>     
    </div>
@@ -37,7 +37,7 @@ function Header() {
        <li>
        
        <div className="dropdown">
-            <button className="dropbtn lg:text-[12px] md:text-[12px] md:mr-2 lg:mr-5 lg:ml-5 md:ml-1 ">Shop▼</button>
+            <button className=" dropbtn lg:text-[12px] md:text-[10px] md:mr-2 lg:mr-5 lg:ml-4 md:ml-1 ">Shop▼</button>
             <div className="dropdown-content">
               <a>All Collections</a>
               <a>Winter Collection</a>
@@ -48,7 +48,7 @@ function Header() {
 <li>
   <Link
     to="/most-wanted"
-    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-4 md:ml-3 text-black lg:text-[14px]  font-bold lg:mr-5 md:mr-2 p-1 md:text-[12px] rounded">
+    className="no-underline hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-4 md:ml-3 text-black lg:text-[14px]  font-bold lg:mr-4 md:mr-2 p-1 md:text-[12px] rounded">
     MostWanted
   </Link>
 </li> 
@@ -56,7 +56,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-5 md:mr-2 md:text-[12px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-4 md:mr-2 md:text-[12px] rounded'>
     NewArrival 
   </Link>
 </li>     
@@ -64,7 +64,7 @@ function Header() {
 <li>
 <Link
     to="/most-wanted"
-    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-3 md:mr-2 md:text-[12px] rounded'>
+    className='no-underline  hover:bg-zinc-300 duration-200 cursor-pointer lg:ml-6 md:ml-3 text-black lg:text-[14px]  font-bold p-1 lg:mr-[2vw] md:mr-[5vw] md:text-[12px] rounded'>
     Brands
   </Link>
 </li> 
@@ -74,7 +74,7 @@ function Header() {
         
 
 
-<div className="flex h-9 mt-3 lg:ml-[5vw] md:ml-2 border-2 border-black-300 rounded lg:mr-[10vw] md:mr-5 hidden lg:block md:block hover:bg-gray-100 transition duration-200">
+<div className="flex h-9 mt-3 lg:ml-3 md:ml-2 border-2 border-black-300 rounded lg:mr-[10vw] md:mr-[6vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
    
       <div className="flex items-center px-2 ">
         <CiSearch className="h-5 w-5 text-gray-500" />
@@ -83,7 +83,7 @@ function Header() {
       <input
         type="search"
         placeholder="Search"
-        className="p-2 outline-none w-full bg-transparent"
+        className="p-2 outline-none w-full bg-transparent lg:w-[10vw] md:w-[10vw]"
       />
     </div>
     </div>
@@ -92,7 +92,7 @@ function Header() {
 
 
 <div className="flex mt-2">
-      <p className="hidden md:flex hover:bg-gray-200 rounded p-2 lg:mr-4  cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
+      <p className="hidden md:flex hover:bg-gray-200 rounded lg:ml-4 p-2 lg:mr-4 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
     <CiShoppingCart className="h-6 w-6"/>
       </p>
 
