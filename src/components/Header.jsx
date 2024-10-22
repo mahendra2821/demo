@@ -112,7 +112,7 @@ function Header() {
             {/* Header Section */}
             <div className='flex w-full justify-between items-center md:hidden p-2 shadow-sm'>
                 <div className="text-xl font-bold flex items-center gap-2">
-                    <h1 className="text-black font-serif font-bold">Monster</h1>
+                    <h1 className="text-black font-serif font-bold">Nostra</h1>
                 </div>
                 <div className='flex justify-center items-center gap-2'>
                 <CiShoppingCart className='mr-4'/>
