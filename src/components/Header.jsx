@@ -74,7 +74,7 @@ function Header() {
         
 
 
-<div className="flex h-9 mt-3 lg:ml-3 md:ml-2 border-2 border-black-300 rounded lg:mr-[10vw] md:mr-[6vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
+<div className="flex h-9 mt-3 lg:ml-3 md:ml-2 border-2 border-black-300 rounded lg:mr-[10vw] md:mr-[4vw] hidden lg:block md:block hover:bg-gray-100 transition duration-200">
    
       <div className="flex items-center px-2 ">
         <CiSearch className="h-5 w-5 text-gray-500" />
@@ -96,7 +96,7 @@ function Header() {
     <CiShoppingCart className="h-6 w-6"/>
       </p>
 
-      <p className="hidden md:flex hover:bg-gray-200 rounded p-2 lg:ml-4 md:mr-4 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
+      <p className="hidden md:flex hover:bg-gray-200 rounded p-2 lg:ml-4 md:mr-4 lg:mr-4 cursor-pointer transition duration-200 h-[7vh]  items-center justify-center">
         <IoIosContact className="h-6 w-6" />
       </p>
     </div>
